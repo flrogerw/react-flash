@@ -27,5 +27,4 @@ var mapDispatchToProps = function(dispatch){
         reset: function(){ dispatch(actions.reset()); }
     }
 };
-
 module.exports = connect(mapStateToProps,mapDispatchToProps)(TextQuestion);
